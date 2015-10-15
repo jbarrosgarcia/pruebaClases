@@ -1,4 +1,5 @@
 
+
 package aplicacionejemplo2;
 
 public class Rectangulo {
