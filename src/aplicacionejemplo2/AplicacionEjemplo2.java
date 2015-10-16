@@ -8,13 +8,11 @@ public class AplicacionEjemplo2 {
 
     
     public static void main(String[] args) {
-      
-      Scanner teclado=new Scanner(System.in); 
+      Metodos teclado=new Metodos();
+     
       float base,altura;
-      System.out.println("Introduzca base");
-      base=teclado.nextFloat();
-      System.out.println("Introduzca altura");
-      altura=teclado.nextFloat();
+      base=teclado.pedirFloat();
+      altura=teclado.pedirFloat();
       Rectangulo rec1=new Rectangulo(base,altura);
       System.out.println("Base = "+rec1.getBase());
       System.out.println("Alutra = "+rec1.getAltura());
